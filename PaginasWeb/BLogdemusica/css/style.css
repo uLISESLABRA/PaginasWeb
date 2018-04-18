@@ -12,9 +12,11 @@ header{
 }
 .ink{
   
-  margin-right: 120px;
+  margin-right: 200px;
+  border: 1px solid (0, 210, 100, 1);
 
 }
+
 .navegacion{
   margin-bottom: 10px;
 }

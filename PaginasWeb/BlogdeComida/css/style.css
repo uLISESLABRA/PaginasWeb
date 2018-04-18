@@ -1,0 +1,47 @@
+	*{
+		font-family: "Roboto";
+	}
+	body {
+	/* Ubicación de la imagen */
+
+	background-image: url(../imagenes/images.jpg);
+	background-position: center;
+	/* Para que la imagen de fondo no se repita */
+	background-repeat: no-repeat;
+
+	/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #66999;
+
+	}
+h3{
+  color: rgba(255, 255, 255, 1);
+	text-align: center;
+  border: 1px solid #000;
+  background-color:  rgba(0, 0, 0, 6);
+	
+}
+h3:hover{
+	color: rgba(0, 210, 100, 1)
+}
+	footer{
+	  	background-color: rgba(0, 0, 0, 6);
+	  	border-top: 1px solid rgba(0, 210, 100, 1);
+	  	color: rgba(255, 255, 255, 1);
+	  	font-size: 0.8rem;
+	  	font-weight: 500;
+	  	padding: 0.4em 1em;
+	  	text-align: center;
+	  	width: 100%;
+	  }
+
+	#title_home{
+		font-size: 1.5em;
+	}
+	.card-text{
+		font-size: 80%;
+	}
+	.card_platos{
+		background-color: #09E5C3
+	}
